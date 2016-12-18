@@ -1,14 +1,14 @@
 <?php
 	$x = $_GET['x'];
 	//$x=(int)$x;
-	var_dump($x);
-	if (preg_match('/\D+/',$x)) {
+	//var_dump($x);
+	/* if (preg_match('/\D+/',$x)) {
 	//if (!is_numeric($x)) {
 		var_dump($x);
 		echo "<br>Некорректный ввод: - введите целое число";
 		die();
 	}
-	else 
+	else  */
 	{
 	$a = 1;
 	$b = 1;
